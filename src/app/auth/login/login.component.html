@@ -1,0 +1,32 @@
+<form class="form-card" [formGroup]="loginForm">
+        <div class="d-flex justify-content-center">
+          <div class="card col-xl-4 col-md-4 col-12 ">
+            <div class="head my-3">
+              <h1 style="margin-left: 180px;">Log In</h1>
+            </div>
+            <div>
+                <mat-form-field appearance="outline">
+                    <mat-label>Username</mat-label>
+                    <input matInput type="text" class="form-control" formControlName="username">
+                    <mat-error *ngIf="this.loginForm.controls.username.hasError('required')">
+                      Username is required</mat-error>
+                  </mat-form-field>
+                
+            </div>
+            <div>
+                  <mat-form-field appearance="outline">
+                      <mat-label>Password*</mat-label>
+                      <input matInput [type]="hide ? 'password': 'text'" class="form-control" formControlName="password">
+                      <mat-icon matSuffix (click)="hide = !hide" style="cursor: pointer;">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                      <mat-error *ngIf="this.loginForm.controls.password.hasError('required')">
+                        Password is required</mat-error>
+                    </mat-form-field>
+              </div>
+            <div class="button">
+                <button [disabled]="!loginForm.valid" mat-raised-button color="primary"  (click) = "navigateToHome()" style="width: 200px; margin-left: 140px; margin-bottom: 20px;">Login</button>
+            </div>
+            <mat-divider></mat-divider>
+            <button mat-stroked-button color="primary" (click) = "navigateToSignUp()" style="width: 200px; margin-left: 140px; margin-top: 20px;">Sign Up</button>
+          </div>
+        </div>
+</form>
