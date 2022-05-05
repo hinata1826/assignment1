@@ -16,6 +16,7 @@ export class SignUpComponent implements OnInit {
   hide = true;
   get passwordInput() { return this.signUpForm.get('password'); }
 
+
   constructor() { }
 
   ngOnInit(): void {
