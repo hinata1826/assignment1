@@ -28,6 +28,7 @@ export class SignUpComponent implements OnInit {
     if(this.signUpForm.valid){
     
       console.log("no console");
+      console.log("no console-1");
       
     }
   }
