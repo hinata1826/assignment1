@@ -22,7 +22,7 @@ export class SignUpComponent implements OnInit {
     console.log("1234");
   }
   signUp(){
-    
+    console.log('1')
   }
   onSubmit(){
     if(this.signUpForm.valid){
