@@ -27,6 +27,7 @@ export class SignUpComponent implements OnInit {
   onSubmit(){
     if(this.signUpForm.valid){
     
+      
     }
   }
 }
