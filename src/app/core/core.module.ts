@@ -19,7 +19,6 @@ import {MatDividerModule} from '@angular/material/divider';
     MatButtonModule,
     ReactiveFormsModule,
     MatIconModule,
- 
   ]
 })
 export class CoreModule { 
