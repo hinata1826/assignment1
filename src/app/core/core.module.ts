@@ -22,4 +22,5 @@ import {MatDividerModule} from '@angular/material/divider';
  
   ]
 })
-export class CoreModule { }
+export class CoreModule { 
+}
