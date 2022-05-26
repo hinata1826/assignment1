@@ -13,7 +13,6 @@ import {MatDividerModule} from '@angular/material/divider';
   ],
   imports: [
     CommonModule,
-    CommonModule,
     MatFormFieldModule,
     MatInputModule,
     MatButtonModule,
