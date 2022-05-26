@@ -23,7 +23,8 @@ export class LoginComponent implements OnInit {
   }
 
   navigateToHome(){
-     this.router.navigateByUrl('home');
+     
+    this.router.navigateByUrl('home');
   }
 
 
