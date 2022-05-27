@@ -14,7 +14,7 @@ export class LoginComponent implements OnInit {
     password: new FormControl('',[Validators.required, Validators.min(3)]),
   })
 
-  hide = false;
+  hide = true;
   get passwordInput() { return this.loginForm.get('password'); }
 
   constructor( private router:Router) { }
