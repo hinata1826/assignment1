@@ -27,7 +27,11 @@ export class LoginComponent implements OnInit {
      
     this.router.navigateByUrl('home');
   }
-
+boolean bar(int x, int y) {
+        System.out.println("X and Y are different");
+      System.out.println("X and Y are different");
+        return (x != y) ? diff(x) : same(y);
+    }
 
   ngOnInit(): void {
     console.log('12');
