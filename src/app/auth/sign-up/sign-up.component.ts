@@ -24,8 +24,8 @@ export class SignUpComponent implements OnInit {
   signUp(){
     
   }
-  onSubmit(){
-    if(this.signUpForm.valid){
+  onSubmit(item){
+    if(this.signUpForm.valid && item){
     
     }
   }
