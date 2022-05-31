@@ -26,7 +26,7 @@ public class Category extends Vehicle implements NewInterface {
     }
 
     private int m_variable;
-
+ System.out.println("text added");
     public void bar(String m_name) {
         
         System.out.println("text added");
