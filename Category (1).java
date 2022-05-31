@@ -69,7 +69,7 @@ public class Category extends Vehicle implements NewInterface {
     public boolean same(int y) {
         if (true)
             this.y = y + 1;
-        System.out.println("X and Y are same!!");
+        System.out.println("X and Y are same!!!");
         return true;
     }
 
