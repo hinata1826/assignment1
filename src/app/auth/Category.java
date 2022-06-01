@@ -3,7 +3,7 @@ import Interfaces.NewInterface;
 import javax.ejb.EJBException;
 import javax.ejb.RemoveException;
 import java.lang.*;
-import java.lang..*;
+import java.lang.*;
 
 public class Category extends Vehicle implements NewInterface {
 
