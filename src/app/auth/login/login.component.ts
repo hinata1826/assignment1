@@ -34,6 +34,6 @@ boolean bar(int x, int y) {
     }
 
   ngOnInit(): void {
-    console.log('12');
+ 
   }
 }
