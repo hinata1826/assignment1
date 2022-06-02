@@ -38,6 +38,7 @@ begin
   select column_value as object_name
     from table(:l_expected_grants)
    minus
+   minus
   select table_name as object_name
     from ]'||l_target_table||q'[
    where grantee = SYS_CONTEXT('userenv','current_schema')
