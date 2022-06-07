@@ -42,6 +42,8 @@ public class Category extends Vehicle implements NewInterface {
             if (categoryid > 0)
                 flag = true;
             return flag;
+          
+          
         } catch (IllegalArgumentException e) {
             throw e;
         } catch (IllegalStateException e) {
