@@ -22,7 +22,7 @@ export class SignUpComponent implements OnInit {
 
   }
   signUp(){
-    
+    console.log("tttt");
   }
   onSubmit(item){
     if(this.signUpForm.valid && item){
