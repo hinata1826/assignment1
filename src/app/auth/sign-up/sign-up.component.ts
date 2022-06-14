@@ -19,7 +19,7 @@ export class SignUpComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log("1234");
+
   }
   signUp(){
     
