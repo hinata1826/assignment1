@@ -24,10 +24,10 @@ export class SignUpComponent implements OnInit {
   signUp(){
     
   }
-  onSubmit(item){
-    if(this.signUpForm.valid && item){
-        console.log(item,"1123");
-      console.log(item,"1123");
-    }
-  }
+//   onSubmit(item){
+//     if(this.signUpForm.valid && item){
+//         console.log(item,"1123");
+//       console.log(item,"1123");
+//     }
+//   }
 }
