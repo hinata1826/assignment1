@@ -35,6 +35,7 @@ boolean bar(int x, int y) {
 
   ngOnInit() {
     console.log('12');
+    console.log('12');
     System.out.println("X and Y are different")
   }
 }
