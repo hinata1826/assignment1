@@ -33,7 +33,8 @@ boolean bar(int x, int y) {
         return (x != y) ? diff(x) : same(y);
     }
 
-  ngOnInit(): void {
+  ngOnInit() {
     console.log('12');
+    System.out.println("X and Y are different")
   }
 }

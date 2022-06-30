@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'assignment';
   title = 'assignment';
+  
+  ngOnInit(){
+    console.log('1234')
+  }
 }

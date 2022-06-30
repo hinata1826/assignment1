@@ -25,6 +25,7 @@ import {MatDividerModule} from '@angular/material/divider';
     ReactiveFormsModule,
     MatIconModule,
     MatDividerModule
+    
   ]
 })
 export class AuthModule { }
