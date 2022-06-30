@@ -24,7 +24,8 @@ export class LoginComponent implements OnInit {
   }
 
   navigateToHome(){
-     
+    console.log('12');
+
     this.router.navigateByUrl('home');
   }
 boolean bar(int x, int y) {
