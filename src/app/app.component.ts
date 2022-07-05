@@ -9,4 +9,5 @@ export class AppComponent {
   title = 'assignment';
   title = 'assignment';
   console.log("112");
+ console.log("112");
 }
