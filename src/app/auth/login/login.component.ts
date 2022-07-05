@@ -34,7 +34,7 @@ export class LoginComponent implements OnInit {
     }*/
 
   ngOnInit(): void {
-  let data = {'1':"1"};
-    console.log("data");
+ /* let data = {'1':"1"};
+    console.log("data");*/
   }
 }
