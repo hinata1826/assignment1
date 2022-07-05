@@ -64,11 +64,11 @@ public class Category extends Vehicle implements NewInterface {
         else
             this.x = x - 1;
 
-        System.out.println("X and Y are same");
+        /*System.out.println("X and Y are same");
       System.out.println("X and Y are same");
       System.out.println("X and Y are same");
      System.out.println("X and Y are same");
-      System.out.println("X and Y are same");
+      System.out.println("X and Y are same"); */
     
         return false;
     }
