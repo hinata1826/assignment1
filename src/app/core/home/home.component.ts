@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     let data;
-    data = 1;
+    // data = 1;
   }
 
 }
