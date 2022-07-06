@@ -118,9 +118,9 @@ export class LoginComponent implements OnInit {
         }
         this.storeQueries = true;
 
-        const afterBroadcastResult = new BroadcasterResult();
+       /* const afterBroadcastResult = new BroadcasterResult();
         this.broadcaster.broadcastAfterTransactionStartEvent(afterBroadcastResult);
-        if (afterBroadcastResult.promises.length > 0) await Promise.all(afterBroadcastResult.promises);
+        if (afterBroadcastResult.promises.length > 0) await Promise.all(afterBroadcastResult.promises); */
     }
 
     /**
