@@ -19,7 +19,11 @@ export class SignUpComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+<<<<<<< HEAD
     console.log("1234456");
+=======
+    console.log("123456789898");
+>>>>>>> 1e0622335f43870b82c0a9757a9f59f0a76540fb
   }
   signUp(){
     

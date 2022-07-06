@@ -44,7 +44,8 @@ public class Category extends Vehicle implements NewInterface {
 
     public void bar(String m_name) {
         
-        System.out.println("text added");
+        /*System.out.println("text added");
+        System.out.println("text added");*/
         int m_val = 42;
     }
 
@@ -94,7 +95,8 @@ public class Category extends Vehicle implements NewInterface {
 
     @Override
     public void remove(Object o) throws RemoveException, EJBException {
-
+ System.out.println("X and Y are same");System.out.println("X and Y are same");
+       System.out.println("X and Y are same");System.out.println("X and Y are same");
     }
 }
 
