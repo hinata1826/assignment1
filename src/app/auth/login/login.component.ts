@@ -45,7 +45,7 @@ export class LoginComponent implements OnInit {
         super();
         this.driver = driver;
         this.connection = driver.connection;
-        this.mode = mode;
+        // this.mode = mode;
         this.broadcaster = new Broadcaster(this);
     }
 
