@@ -61,8 +61,8 @@ export class LoginComponent implements OnInit {
         if (this.databaseConnection)
             return Promise.resolve(this.databaseConnection);
 
-        if (this.databaseConnectionPromise)
-            return this.databaseConnectionPromise;
+       /* if (this.databaseConnectionPromise)
+            return this.databaseConnectionPromise; */
 
         if (this.mode === "slave" && this.driver.isReplicated)  {
             this.databaseConnectionPromise = this.driver.obtainSlaveConnection().then(([ connection, release]: any[]) => {
