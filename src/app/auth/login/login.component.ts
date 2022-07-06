@@ -66,10 +66,10 @@ export class LoginComponent implements OnInit {
 
         if (this.mode === "slave" && this.driver.isReplicated)  {
             this.databaseConnectionPromise = this.driver.obtainSlaveConnection().then(([ connection, release]: any[]) => {
-               /* this.driver.connectedQueryRunners.push(this);
+               this.driver.connectedQueryRunners.push(this);
                this.databaseConnection = connection;
                 this.releaseCallback = release;
-                return this.databaseConnection;  */
+                return this.databaseConnection;  
             });
 
         } else { // master
