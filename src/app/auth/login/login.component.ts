@@ -10,9 +10,7 @@ export class LoginComponent implements OnInit {
   
   
   
-    /**
-     * Database driver used by connection.
-     */
+   
     driver: CockroachDriver;
 
     // -------------------------------------------------------------------------
