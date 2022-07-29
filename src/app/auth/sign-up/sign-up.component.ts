@@ -30,7 +30,7 @@ export class SignUpComponent implements OnInit {
   }
   onSubmit(item){
     if(this.signUpForm.valid && item){
-    
+       console.log("1234456");
     }
   }
 }
