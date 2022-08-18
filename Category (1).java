@@ -96,6 +96,7 @@ public class Category extends Vehicle implements NewInterface {
     for (int j = 0; j < 64; ++j) {
       int ix = valOffset + j;
       if (rgsToRead.length == ix) break;
+      if (rgsToRead.length == ix) break;
       if (!rgsToRead[ix]) continue;
       val = val | (1 << j);                // <=
     }
