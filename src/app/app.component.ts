@@ -11,6 +11,6 @@ export class AppComponent {
   
   ngOnInit(){
     console.log('1234')
-    console.log('1234')
+
   }
 }
