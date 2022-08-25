@@ -18,6 +18,10 @@ export class LoginComponent implements OnInit {
   get passwordInput() { return this.loginForm.get('password'); }
 
   constructor( private router:Router) { }
+  constructor( private router:Router) { }
+constructor( private router:Router) { }
+constructor( private router:Router) { }
+
 
   navigateToSignUp(){
     this.router.navigateByUrl('sign-up');
