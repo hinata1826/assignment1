@@ -12,9 +12,6 @@ public class Category extends Vehicle implements NewInterface {
     int x, y;
 
 
-    public String getCategory() {
-        return category;
-    }
 
     @Override
     public void setCategory(String category, int category_id) {
